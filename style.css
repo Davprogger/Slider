@@ -1,0 +1,41 @@
+.slider-container {
+    display : flex; 
+    margin: 10px auto;
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: repeat;
+  }
+  
+
+  .slide {
+    margin: 5px;
+    width: 25%;
+    height: 100%;
+  }
+  
+  .slide img {
+
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    padding: 8px 16px;
+    background-color: rgb(49, 0, 128);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
